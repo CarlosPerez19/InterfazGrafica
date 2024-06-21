@@ -29,13 +29,20 @@ public class Main {
         frame.setVisible(true);
         */
 
-
+        /*
         JFrame frame2 = new JFrame("Calculadora");
         frame2.setContentPane(new calculadora().mainPanel());
         frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame2.pack();
         frame2.setSize(600, 400);
         frame2.setVisible(true);
+         */
 
+        JFrame frame3 = new JFrame();
+        frame3.setContentPane(new PantallaLogin().login());
+        frame3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame3.setSize(800, 600);
+        frame3.pack();
+        frame3.setVisible(true);
     }
 }
