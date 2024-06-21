@@ -21,12 +21,21 @@ public class Main {
         JOptionPane.showInputDialog(null, "La division de:" + n1 + "/" + n2 + "=" + resultado4);
 
          */
-
+        /*
         JFrame frame = new JFrame("Mi aplicacion");
         frame.setContentPane(new form1().panel1());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+        */
+
+
+        JFrame frame2 = new JFrame("Calculadora");
+        frame2.setContentPane(new calculadora().mainPanel());
+        frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame2.pack();
+        frame2.setSize(600, 400);
+        frame2.setVisible(true);
 
     }
 }

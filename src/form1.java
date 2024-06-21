@@ -8,6 +8,8 @@ public class form1 {
     public JPanel panel1;
     private JLabel lb;
     private JButton BotonCancelar;
+    private JTextField texto1;
+    private JButton CapturarTexto;
 
     public Container panel1 () {
         return panel1;
@@ -25,6 +27,12 @@ public class form1 {
             @Override
             public void actionPerformed(ActionEvent e) {
                 lb.setText(null);
+            }
+        });
+        CapturarTexto.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                lb.setText(texto1.getText());
             }
         });
     }
