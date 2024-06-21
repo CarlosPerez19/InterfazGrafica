@@ -23,6 +23,10 @@ public class Main {
          */
 
         JFrame frame = new JFrame("Mi aplicacion");
+        frame.setContentPane(new form1().panel1());
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
 
     }
 }
